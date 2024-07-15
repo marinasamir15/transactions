@@ -17,16 +17,16 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               
               <li className="nav-item">
-            <Link className="nav-link active" to="home">Home</Link>
+            <Link className="nav-link text-white active" to="home">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="customer">Customers</Link>
+            <Link className="nav-link text-white" to="customer">Customers</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="transaction">Filter & Chart</Link>
+            <Link className="nav-link text-white" to="transaction">Filter & Chart</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="transactionwithlocalserver">Filter&Chart With Localserver </Link>
+            <Link className="nav-link text-white" to="transactionwithlocalserver">Filter&Chart With Localserver </Link>
           </li>
               
             </ul>
